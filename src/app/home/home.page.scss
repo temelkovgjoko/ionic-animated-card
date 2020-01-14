@@ -1,1 +1,25 @@
+:host {
+  background: #f3c96a;
+}
+ion-content {
+  --background: transparent;
+  transform: translate3d(0, 200px, 0);
+  transition: .5s
+}
 
+.no-transform {
+  transform: translate3d(0, 0, 0);
+}
+
+ion-toolbar {
+  --background: transparent;
+  --border-width: 0 !important;
+}
+.content-container {
+  background-color: white;
+  min-height: 100%;
+  //   height: auto;
+  border-radius: 30px;
+  padding-top: 40px;
+  padding-bottom: 200px;
+}
